@@ -3,11 +3,6 @@ This Node.js application demonstrates how to build a voice AI receptionist for a
 
 The application uses Ultravox Realtime and Twilio. It handles both incoming and outgoing calls, with a specific focus on managing student lesson reminders and appointments. There are accompanying videos that go into detail about building the application:
 
-## Videos
-This code was developed during a series of livestreams. The records are available:
-1. Session 1 (Thursday, January 23, 2025) [Recording](https://www.youtube.com/live/DocZRHNeAy4?si=utqrDuqHHlywxsIp&t=377)
-2. Session 2 (Friday, January 24, 2025) [Recording](https://www.youtube.com/watch?v=qwFOzo2-dMs&t=1435s)
-3. Session 3 (Thursday, January 30, 2025) [Recording](https://www.youtube.com/watch?v=S2xeZv4mSXk)
 
 ## Highlights
 The application includes:
@@ -32,12 +27,7 @@ The application includes:
 - SQLite database (for student information)
 - A way to expose your local server to the internet (e.g., ngrok)
 
-## Setup
 
-1. Clone this repository
-2. Install dependencies:
-```bash
-pnpm install
 ```
 
 3. Configure your environment variables:
@@ -168,10 +158,3 @@ Common issues and solutions:
    - Check event type ID exists
    - Verify timezone settings
 
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
-
-## License
-
-This project is licensed under the Apache 2.0 - see the LICENSE file for details.
