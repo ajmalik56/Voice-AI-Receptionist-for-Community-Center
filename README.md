@@ -28,20 +28,7 @@ The application includes:
 - A way to expose your local server to the internet (e.g., ngrok)
 
 
-```
 
-3. Configure your environment variables:
-   Create a file named `.env` and add the following:
-
-```bash
-ULTRAVOX_API_KEY='your_ultravox_api_key_here'
-CALCOM_API_KEY='your_cal_api_key_here'
-CALCOM_EVENT_TYPE_ID='your_event_type_id'
-TWILIO_ACCOUNT_SID='your_twilio_account_sid'
-TWILIO_AUTH_TOKEN='your_twilio_auth_token'
-TWILIO_PHONE_NUMBER='your_twilio_phone_number'
-DESTINATION_PHONE_NUMBER='your_transfer_destination_number'
-TOOLS_BASE_URL='your_ngrok_url'
 ```
 
 
@@ -137,24 +124,5 @@ Got joinUrl: [URL]
 Call initiated: [CallSID]
 ```
 
-## Troubleshooting
 
-Common issues and solutions:
-
-1. Calls not connecting:
-   - Verify Ultravox API key
-   - Check ngrok URL in Twilio settings
-   - Verify server is running and accessible
-   - Check server logs for errors
-
-2. Reminder calls failing:
-   - Verify student phone numbers are in E.164 format
-   - Check database connection
-   - Verify Cal.com API key and event type ID
-   - Monitor call logs in Twilio console
-
-3. Calendar integration issues:
-   - Verify Cal.com API key permissions
-   - Check event type ID exists
-   - Verify timezone settings
 
